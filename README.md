@@ -4,9 +4,10 @@ According to Mozilla, decryption is the conversion of ciphertext into Plaintext.
 # Programming Language Used
 Python
 
-# How to run this program
+# How to run this program 
+(You first need to install the pyfiglet module. You can do this by running the following command in your terminal or command prompt: pip install pyfiglet)
 1. Open a text editor such as Notepad, Sublime Text, or VS Code.
-2. Copy the code you provided and paste it into a new file in the text editor.
+2. Copy this code provided and paste it into a new file in the text editor. 
 3. Save the file with a .py extension, such as decrypt_message.py.
 4. Open a terminal or command prompt.
 5. Navigate to the directory where you saved the .py file using the cd command.
