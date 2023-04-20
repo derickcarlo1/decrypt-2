@@ -1,4 +1,11 @@
+import pyfiglet
+
 # Create header
+course = input("What's your course? ")
+print(pyfiglet.figlet_format(f"Welcome, {course} student!", font="larry3d", width=80))
+print("=" * 20)
+print("\033[34mDecrypt the message!\033[0m")
+print("=" * 20)
 
 # Define the character substitution dictionary
 
