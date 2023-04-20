@@ -18,10 +18,16 @@ def decrypt(ciphertext):
     print("\033[33m\033[0m", plaintext)
 
 # Prompt the user for input and decrypt it
-
-"Enter the message to decrypt: "
-
-"Do you want to decrypt another message? (y/n): "
-  
-"Exiting program. Goodbye!"
-"Invalid input, will exit the program. Goodbye!"
+while True:
+    ciphertext = input("Enter the message to decrypt: ")
+    decrypt(ciphertext)
+    
+    choice = input("\"Do you want to decrypt another message? (y/n): ")
+    if choice.lower() == "n":
+        print("Exiting program. Goodbye!")
+        break
+    elif choice.lower() == "y":
+        continue
+    else:
+        print("Invalid input, will exit the program. Goodbye!")
+        break
