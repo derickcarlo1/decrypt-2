@@ -11,6 +11,11 @@ print("=" * 20)
 char_map = {'*': 'a', '&': 'e', '#': 'i', '+': 'o', '!': 'u'}
 
 # Define the decryption function
+def decrypt(ciphertext):
+    plaintext = ''
+    for c in ciphertext:
+        plaintext += char_map.get(c, c)
+    print("\033[33m\033[0m", plaintext)
 
 # Prompt the user for input and decrypt it
 
