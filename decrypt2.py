@@ -8,6 +8,7 @@ print("\033[34mDecrypt the message!\033[0m")
 print("=" * 20)
 
 # Define the character substitution dictionary
+char_map = {'*': 'a', '&': 'e', '#': 'i', '+': 'o', '!': 'u'}
 
 # Define the decryption function
 
